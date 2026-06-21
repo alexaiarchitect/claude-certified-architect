@@ -1,0 +1,9 @@
+Invoice ID: INV-777
+Company: Example Health
+Currency: USD
+Line Items:
+- Initial Review | qty 1 | unit_price 800.00
+- Policy Mapping | qty 1 | unit_price 300.00
+Subtotal: 1100.00
+Tax: 88.00
+Total: 1188.00

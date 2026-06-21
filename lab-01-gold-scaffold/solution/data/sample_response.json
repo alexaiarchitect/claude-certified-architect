@@ -1,0 +1,21 @@
+{
+  "id": "resp_sample_01",
+  "stop_reason": "tool_use",
+  "content": [
+    {
+      "type": "text",
+      "text": "I need the customer profile before I can decide whether escalation is required."
+    },
+    {
+      "type": "tool_use",
+      "name": "get_customer_profile",
+      "input": {
+        "customer_id": "cust_123"
+      }
+    }
+  ],
+  "usage": {
+    "input_tokens": 321,
+    "output_tokens": 129
+  }
+}

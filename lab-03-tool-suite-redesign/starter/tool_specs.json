@@ -1,0 +1,20 @@
+[
+  {
+    "name": "handle_refund",
+    "description": "Handle refund work for order issues.",
+    "keywords": ["refund", "order", "charge"],
+    "required_fields": ["order_id"]
+  },
+  {
+    "name": "resolve_charge_issue",
+    "description": "Resolve customer issues for duplicate or incorrect charges.",
+    "keywords": ["refund", "charge", "customer"],
+    "required_fields": ["order_id"]
+  },
+  {
+    "name": "escalate_case",
+    "description": "Escalate cases that need human review.",
+    "keywords": ["escalate", "policy", "manual"],
+    "required_fields": ["reason"]
+  }
+]

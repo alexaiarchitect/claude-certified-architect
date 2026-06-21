@@ -1,0 +1,9 @@
+Invoice ID: INV-778
+Company: Example Retail
+Currency: EUR
+Line Items:
+- Tool Audit | qty 2 | unit_price 250.00
+- Retry Design | qty 1 | unit_price 600.00
+Subtotal: 1100.00
+Tax: 220.00
+Total: 1320.00

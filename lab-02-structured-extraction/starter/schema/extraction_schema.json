@@ -1,0 +1,11 @@
+{
+  "required": [
+    "invoice_id",
+    "company",
+    "currency",
+    "subtotal",
+    "tax",
+    "total",
+    "line_items"
+  ]
+}

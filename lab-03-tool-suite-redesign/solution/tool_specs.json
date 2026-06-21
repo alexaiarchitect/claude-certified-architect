@@ -1,0 +1,20 @@
+[
+  {
+    "name": "issue_refund",
+    "description": "Issue a refund for a confirmed duplicate or incorrect charge after validation is complete.",
+    "keywords": ["refund", "duplicate", "incorrect", "charge"],
+    "required_fields": ["order_id", "amount", "reason"]
+  },
+  {
+    "name": "lookup_order",
+    "description": "Retrieve order details when the system needs facts before deciding the next action.",
+    "keywords": ["order", "lookup", "details", "status"],
+    "required_fields": ["order_id"]
+  },
+  {
+    "name": "escalate_case",
+    "description": "Escalate cases that require policy review or manual approval.",
+    "keywords": ["escalate", "policy", "manual", "approval"],
+    "required_fields": ["reason", "case_summary"]
+  }
+]

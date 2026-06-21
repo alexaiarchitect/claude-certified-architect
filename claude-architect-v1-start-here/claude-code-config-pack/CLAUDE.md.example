@@ -1,0 +1,12 @@
+# Team Conventions
+
+## Default Behavior
+
+- inspect first
+- choose the leanest acceptable fix
+- note tradeoffs explicitly
+
+## Safety Rules
+
+- do not read secrets by default
+- use repo-local guidance first

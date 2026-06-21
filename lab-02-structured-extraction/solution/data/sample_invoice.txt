@@ -1,0 +1,9 @@
+Invoice ID: INV-2048
+Company: Northwind Labs
+Currency: USD
+Line Items:
+- Architecture Review Sprint | qty 1 | unit_price 1200.00
+- Reliability Checklist Pack | qty 2 | unit_price 150.00
+Subtotal: 1500.00
+Tax: 120.00
+Total: 1620.00
